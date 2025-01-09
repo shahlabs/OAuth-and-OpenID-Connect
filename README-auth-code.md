@@ -4,7 +4,9 @@ Before using the following setup, ensure your Auth0 environment is configured as
 
 ### Setting up Postman for Auth Code Flow using Auth0
 
-For the Settings in this section, on your Auth0 Dashboard vist Applications > Applications and your specific application.
+For the Settings in this section, on your Auth0 Dashboard (https://manage.auth0.com/) vist Applications > Applications and your specific application.
+Make sure to add Application URIs -> Allowed Callback URLs -> https://127.0.0.1 and hit save.
+From left menu, click User Management, Add user , enter an email and password, this will be needed for postman authentication.
 
 0. In the Postman request editor, immediately below the URL box, select Authorization.
 0. For Type, select `OAuth 2.0`
